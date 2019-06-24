@@ -1,0 +1,20 @@
+{
+	"authors": [
+		"Yongcheng Ma"
+	],
+	"copyright": "Copyright © 2019, Yongcheng Ma",
+	"dependencies": {
+		"vibe-d:http": "~>0.8.2",
+		"vibe-d:utils": "~>0.8.2",
+		"vibe-d:tls": "~>0.8.2",
+	},
+	"subConfigurations": {
+			"vibe-d:tls" : "notls"
+	},
+	
+	"description": "A Simple File Server",
+	"license": "proprietary",
+	"name": "dfileserver",
+	"dflags":["-v"],
+	"versions":["VibeDisableCommandLineParsing"]
+}
